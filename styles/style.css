@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf');
+}
+:root {
+    --purple-100: hsl(254, 88%, 90%);
+    --purple-500: hsl(256, 67%, 59%);
+
+    --yellow-100: hsl(31, 66%, 93%);
+    --yellow-500: hsl(39, 100%, 71%);
+
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+
+    --fs-paragraph: 1.8rem;
+    --ff-family: 'DM Sans';
+    --fw-normal: 400;
+    --fw-bold: 500;
+}
+html {
+    font-size: 62.5%;
+    font-family: var(--ff-family);
+}
